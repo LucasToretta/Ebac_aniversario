@@ -1,0 +1,25 @@
+.infos__bar {
+    padding: 16px 24px;
+    background-color: #fff;
+    max-width: 800px;
+    width: 100%;
+    margin: 200px auto;
+
+
+    &__infos{
+        display: flex;
+        gap: 40px;
+
+        &__item {
+            font-size: 14px;
+            color: #000;
+
+
+            b {
+                color: #000;
+                font-size: 18px;
+                display: block;
+            }
+        }
+    } 
+}

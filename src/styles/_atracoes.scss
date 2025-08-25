@@ -1,0 +1,48 @@
+@use 'variables';
+
+.atracoes {
+    padding: 40px 0 150px;
+    
+    &--Acelotti {
+        background: linear-gradient(variables.$yellow2, variables.$green1);
+}
+    &--Cr7 {
+        background: linear-gradient(variables.$green1, variables.$yellow1);
+}
+    &--Messi {
+        background: linear-gradient(variables.$yellow1, variables.$yellow2);
+}
+    &--Selecao {
+        background: linear-gradient(variables.$yellow2, variables.$green1);
+}
+
+
+
+&__conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 10px;
+
+    &.atracoes--image-left {
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    }
+}
+
+    p {
+    flex: 0.8;
+    margin: auto 120px auto 20px;
+    padding: 40px;
+    padding-left: 80px;
+    font-size: 20px;
+    text-align: justify;
+    }
+
+    img {
+    flex: 0.5;
+    width: 20px;
+    margin-right: 40px;
+    }
+}
+

@@ -1,0 +1,39 @@
+@use 'variables';
+
+.event {
+background: linear-gradient(variables.$yellow1,variables.$yellow2);
+padding: 60px 0 100px;
+
+}
+
+.hero {
+&__text{
+    text-align: center;
+    margin-top: 200px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: variables.$textColor;
+}
+
+&::before {
+    content: "";
+    position: fixed;
+    margin-top: 40px;
+    height: 500px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../images/copa-do-mundo-de-2-26-deve-ter-novo-formato-com-1-4-partidas-removebg-preview.png);
+    background-size: contain; 
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.1;
+    }
+
+    #contador{
+        font-size: 48px;
+    }
+
+
+}
